@@ -1,0 +1,13 @@
+# SMAAI - Smart Meeting AI
+# Install with:  pip install -r requirements.txt
+# (ffmpeg and a running MongoDB server are also needed - see README.md)
+
+streamlit>=1.40,<2          # web user interface (>=1.40 is needed for microphone recording)
+faster-whisper>=1.0.3,<2    # speech-to-text
+pymongo>=4.6,<5             # MongoDB database (also provides the 'bson' module)
+openai>=1.40,<3             # client for the LLM API (works with Groq, OpenAI, Gemini, Ollama...)
+python-dotenv>=1.0,<2       # reads the .env file
+scikit-learn>=1.3,<2        # TF-IDF similarity search for RAG
+pypdf>=4.0,<7               # read PDF documents
+python-docx>=1.1,<2         # read DOCX documents
+gTTS>=2.5,<3                # text-to-speech

@@ -1,0 +1,32 @@
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Python virtual environments
+venv/
+env/
+myenv/
+.venv/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# macOS files
+.DS_Store
+
+# IDE files
+.vscode/
+
+# Local databases and logs
+*.log
+*.sqlite
+*.sqlite3
+*.db
+
+# Uploaded files and generated outputs (if applicable)
+uploads/
+temp/
